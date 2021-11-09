@@ -1,0 +1,15 @@
+[ {
+  "name" : "test server",
+  "language" : "RU",
+  "ip" : "123.123.123.123",
+  "gamePort" : 28061,
+  "rconPort" : 29061,
+  "rconPass" : "123123123123",
+  "instanceDirectory" : "/cygdrive/c/servers/rust1/server/x1_28061",
+  "additionalDirectories" : [ "/home/steam/rust/backup" ],
+  "sshIP" : "123.123.123.123",
+  "sshPort" : 6666,
+  "sshUser" : "steam",
+  "sshPass" : "123123123123",
+  "consoleFilters" : []
+} ]

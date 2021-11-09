@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.github.melodeiro.servermanager.ui.MemorizeTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<ScrollPane fitToWidth="true" prefHeight="900.0" prefWidth="700.0" VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/8.0.101" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.melodeiro.servermanager.ui.MainWindow">
+    <VBox alignment="TOP_CENTER" spacing="5.0">
+        <HBox spacing="5.0">
+            <Button disable="true">Upload to all servers</Button>
+        </HBox>
+        <HBox spacing="5.0">
+            <MemorizeTextField fx:id="textFieldChatSendToAllRu" onAction="#handleTextFieldChatSendToAll" promptText="Say to all RU servers" HBox.hgrow="ALWAYS" />
+            <MemorizeTextField fx:id="textFieldChatSendToAllEn" onAction="#handleTextFieldChatSendToAll" promptText="Say to all EN servers" HBox.hgrow="ALWAYS" />
+        </HBox>
+        <MemorizeTextField fx:id="textFieldCommandSendToAll" onAction="#handleTextFieldCommandSendToAll" promptText="Send command to all servers" />
+        <VBox fx:id="vboxRustServersList" alignment="CENTER" />
+    </VBox>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</ScrollPane>

@@ -1,0 +1,33 @@
+#buttonSSH, #buttonWinSCP, #toggleButtonShowConsole, #buttonCopyIP, #buttonStart, #buttonRestart, #buttonStop {
+    -fx-background-size: 18 18;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:center;
+}
+
+#buttonSSH {
+    -fx-background-image: url("../images/putty.png");
+}
+
+#buttonWinSCP {
+    -fx-background-image: url("../images/winscp.png");
+}
+
+#toggleButtonShowConsole {
+    -fx-background-image: url("../images/console.png");
+}
+
+#buttonCopyIP {
+    -fx-background-image: url("../images/copyip.png");
+}
+
+#buttonStart {
+    -fx-background-image: url("../images/start.png");
+}
+
+#buttonRestart {
+    -fx-background-image: url("../images/restart.png");
+}
+
+#buttonStop {
+    -fx-background-image: url("../images/stop.png");
+}
